@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chat</title>
+    <script src="chat.js"></script>
+    <link rel="stylesheet" href="style_chat.css">
+    
+</head>
+<body>
+   
+   <div class="chat-container">
+      
+       <div class="chat-left">
+          
+          <div class="chat-left-top-nav">
+              
+               <div class="chat-top-nav-image">
+                  
+                  <div class="chat-nav-image">
+                      
+                      <img src="icon/profile_image.jpg" alt="">
+                      
+                  </div>
+                   
+               </div>
+               
+               <div class="chat-top-nav-name">
+                  
+                   <a><b>Chats</b></a>
+                   
+               </div>
+               
+               <div class="chat-top-nav-icon">
+                  
+                  <div class="nav-icon-round">
+                     
+                     <div class="nav-icon-image" onclick="mySettings()">
+                        
+                        <img src="icon/settings.png" alt="" >
+                        
+                        <div class="chat-setting" id="settings">
+                            
+                            <div class="chat-setting-text"  >
+						       
+							     <a>Settings</a>
+								 
+						      </div>
+							  
+							   <div class="chat-setting-contact" >
+ 
+                                   <a>Active contacts</a>
+							
+							       <a>Message requests</a>
+							
+							       <a>Hidden chats</a>
+							
+							       <a>Unread Chats</a>
+							
+                                </div>
+					  
+					          <div class="chat-setting-about">
+ 
+                                  <a>About</a>
+							
+							      <a>Terms</a>
+							
+							     <a>Privacy Policy</a>
+							
+							     <a>Cookie Policy</a>
+							
+                             </div>
+					  
+					        <div class="chat-setting-help">
+ 
+                               <a>Help</a>
+							
+							   <a>Report a problem</a>
+							
+                             </div>
+					  
+					        <div class="chat-setting-logout">
+ 
+                               <a href="signout.php">Log Out</a>
+							
+                             </div>
+                             
+                        </div>
+                         
+                     </div>
+                      
+                  </div>
+                  
+                  <div class="nav-icon-round">
+                     
+                     <div class="nav-icon-image">
+                        
+                        <img src="icon/cam_add.png" alt="">
+                         
+                     </div>
+                      
+                  </div>
+                  
+                  <div class="nav-icon-round">
+                     
+                     <div class="nav-icon-image">
+                        
+                        <img src="icon/edit.png" alt="">
+                         
+                     </div>
+                      
+                  </div>
+                    
+               </div>
+               
+          </div>
+          
+            <div class="chat-search-container">
+               
+               <div class="chat-search-icon">
+                  
+                  <div class="chat-search-image">
+                      
+                      <img src="icon/search.png" alt="">
+                      
+                  </div>
+                   
+               </div>
+               
+               <div class="chat-search-input">
+                   
+                   <div class="chat-search-input-inside">
+                       
+                       <input type="text" placeholder="Search chat">
+                       
+                   </div>
+                   
+               </div>
+                
+            </div>
+            <div class="chat-person-container">
+                <div class="chat-user-search-container">
+                
+                    <div class="chat-user-search-icon">
+                        
+                        <div class="chat-user-search-image">
+
+                            <img src="icon/profile_image.jpg" alt="">  
+
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="chat-user-search-name">
+                        
+                        <div class="chat-user-search-name-inside">
+
+                                <a><b>Rob Wilson</b></a>     
+                        </div>
+                        
+                        <div class="chat-user-last-seen">
+                            
+                            <div class="chat-last-seen-message">
+                                
+                                <a >Last seen Message</a>
+                                
+                            </div>
+                            
+                            <div class="chat-last-seen-date">
+                                
+                                    <a>date</a>
+                                    
+                            </div> 
+                        
+                        </div>
+                    </div> 
+
+                </div>
+
+                <div class="chat-user-search-container">
+                
+                        <div class="chat-user-search-icon">
+                            
+                            <div class="chat-user-search-image">
+
+                                <img src="icon/profile_image.jpg" alt=""> 
+
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="chat-user-search-name">
+                            
+                            <div class="chat-user-search-name-inside">
+
+                                    <a><b>Chemuel </b></a>   
+
+                            </div>
+                            
+                            <div class="chat-user-last-seen">
+                                
+                                <div class="chat-last-seen-message">
+                                    
+                                    <a >Last seen Message</a>
+                                    
+                                </div>
+                                
+                                <div class="chat-last-seen-date">
+                                    
+                                        <a>date</a>
+                                        
+                                </div> 
+                            
+                            </div>
+                        </div> 
+                         
+                    </div>
+
+                    <div class="chat-user-search-container">
+                
+                            <div class="chat-user-search-icon">
+                                
+                                <div class="chat-user-search-image">
+                                    <img src="icon/profile_image.jpg" alt="">   
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="chat-user-search-name">
+                                
+                                <div class="chat-user-search-name-inside">
+                                        <a><b>Jovanie</b></a>     
+                                </div>
+                                
+                                <div class="chat-user-last-seen">
+                                    
+                                    <div class="chat-last-seen-message">
+                                        
+                                        <a >Last seen Message</a>
+                                        
+                                    </div>
+                                    
+                                    <div class="chat-last-seen-date">
+                                        
+                                            <a>date</a>
+                                            
+                                    </div> 
+                                
+                                </div>
+                            </div> 
+                             
+                        </div>
+                
+            </div>
+           
+       </div> 
+       
+       <div class="chat-right">
+          
+          <div class="chat-right-top-nav">
+              
+              <div class="chat-right-top-nav-profile">
+                 
+                 <div class="chat-top-nav-image">
+                     
+                     <img src="icon/profile_image.jpg" alt="">
+                     
+                 </div>
+                  
+              </div>
+              
+              <div class="chat-right-top-nav-name">
+                 
+                 <div class="chat-right-top-user-name">
+                     
+                     <a><b>Username</b></a>
+                     
+                 </div>
+                 
+                 <div class="chat-right-top-user-status">
+                     
+                     <a>status</a>
+                     
+                 </div>
+                  
+              </div>
+              
+              <div class="chat-right-top-nav-icon">
+                 
+                 <div class="chat-right-top-image">
+                     
+                     <img src="icon/call.png" alt="">
+                     
+                 </div>
+                  
+              </div>
+              
+              <div class="chat-right-top-nav-icon">
+                 
+                 <div class="chat-right-top-image">
+                     
+                     <img src="icon/video_call.png" alt="">
+                     
+                 </div>
+                  
+              </div>
+              
+              <div class="chat-right-top-nav-icon">
+                 
+                 <div class="chat-right-top-image">
+                     
+                     <img src="icon/information.png" alt="">
+                     
+                 </div>
+                  
+              </div>
+              
+          </div>
+          
+          <div class="chat-message-container">
+             
+             <div class="chat-message-left">
+                
+                <div class="chat-chat-container">
+                    
+                </div>
+                
+                <div class="chat-chat-bottom">
+                   
+                   <div class="chat-chat-bottom-icon">
+                      
+                      <div class="chat-chat-bottom-icon-inside">
+                          
+                          <img src="icon/add.png" alt="">
+                          
+                      </div>
+                      
+                      <div class="chat-chat-bottom-icon-inside">
+                          
+                          <img src="icon/gif.png" alt="">
+                          
+                      </div>
+                      
+                      <div class="chat-chat-bottom-icon-inside">
+                          
+                          <img src="icon/sticker.png" alt="">
+                          
+                      </div>
+                      
+                      <div class="chat-chat-bottom-icon-inside">
+                          
+                          <img src="icon/file.png" alt="">
+                          
+                      </div>
+                       
+                   </div>
+                   
+                   <div class="chat-chat-bottom-input">
+                      
+                      <div class="chat-chat-bottom-input-inside">
+                         
+                         <div class="chat-chat-input-type">
+                            
+                            <input type="text" placeholder="Type a message...">
+                             
+                         </div>
+                         
+                         <div class="chat-chat-emoji">
+                            
+                            <div class="chat-chat-emoji-image">
+                                
+                                <img src="icon/smile.png" alt="">
+                                
+                            </div>
+                             
+                         </div>
+                          
+                      </div>
+                       
+                   </div>
+                   
+                   <div class="chat-chat-bottom-send">
+                      
+                      <div class="chat-chat-bottom-send-inside">
+                          
+                          <img src="icon/like.png" alt="">
+                          
+                      </div>
+                       
+                   </div>
+                    
+                </div>
+                 
+             </div>
+             
+             <div class="chat-message-right">
+                
+                <div class="card">
+                    <img src="../img/Grand Theft auto.jpg">
+                    <div class="content">
+                        <h4>Grand Theft Auto</h4>
+                        <div class="progress-line">
+                            <span></span>
+                        </div>
+                        <div class="info">
+                            <p>Download</p>
+                            <label for="play">Play Now!</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                        <img src="../img/Dota 2.jpg">
+                        <div class="content">
+                            <h4>Grand Theft Auto</h4>
+                            <div class="progress-line">
+                                <span></span>
+                            </div>
+                            <div class="info">
+                                <p>Download</p>
+                                <label for="play">Play Now!</label>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="card">
+                    <img src="../img/Grand Theft auto.jpg">
+                    <div class="content">
+                        <h4>Grand Theft Auto</h4>
+                        <div class="progress-line">
+                            <span></span>
+                        </div>
+                        <div class="info">
+                            <p>Download</p>
+                            <label for="play">Play Now!</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" >
+                        <img src="../img/Devil may cry.jpg">
+                        <div class="content">
+                            <h4>Devil May Cry</h4>
+                            <div class="progress-line"><span></span></div>
+                            <div class="info">
+                                <p>Download</p>
+                                <label for="play">Play Now!</label>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="card" >
+                        <img src="../img/Helix Jump.png">
+                        <div class="content">
+                            <h4>Devil May Cry</h4>
+                            <div class="progress-line"><span></span></div>
+                            <div class="info">
+                                <p>Download</p>
+                                <label for="play">Play Now!</label>
+                            </div>
+                        </div>
+                </div>
+
+
+                
+                
+                 
+             </div>
+              
+          </div>
+           
+       </div>
+       
+   </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
